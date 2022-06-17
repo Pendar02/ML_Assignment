@@ -148,12 +148,12 @@ def testPage():
         st_lottie(lottiFiles[int(result[0])], height=300, key="depression")
 
     with col2:
-        st.header("Symptom")
+        st.header("Symptoms")
         st.write("---")
         st.write("-" + symptom)
 
     with col3:
-        st.header("Note")
+        st.header("Recommendations")
         st.write("---")
         st.write("-" +note)
         if(int(result[0]==0)):
