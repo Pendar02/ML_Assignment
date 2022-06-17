@@ -70,8 +70,7 @@ results = {
     2:[
         'Your Depression test result : Moderate Depression',
         "Moderate and mild depression share similar symptoms: problems with self-esteem, reduced productivity, feelings of worthlessness, increased sensitivities, excessive worrying",
-        "Moderate depression is easier to diagnose than mild cases because the symptoms significantly impact your daily life. The key to a diagnosis, though, is to make sure you talk to your doctor about the symptoms you’re experiencing. SSRIs, such as sertraline (Zoloft) or paroxetine (Paxil), may be prescribed. These medications can take up to six weeks to take full effect. Cognitive behavioral therapy (CBT) is also used in some cases of moderate depression.", 
-    ],
+        "Moderate depression is also called as an early state of depression and easy to handle than mild depression. You must make sure that you talk to psychiatrist about the simptoms that you experience. The consumption of medicine like sertraline or paroxetine may be prescribed by your doctor. Make sure that you consume it on time" ],
     3:[
         'Your Depression test result : Moderately severe Depression',
         "Moderately severe depression is very common and very treatable. Some of the symptoms are: low mood and irritability most days as well as a loss of interest or enjoyment in activities that were previously enjoyed",
