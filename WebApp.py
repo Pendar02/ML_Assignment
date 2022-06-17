@@ -64,23 +64,23 @@ results = {
     ],
     1:[
         'Your Depression test result : Mild Depression',
-        "Some common mild depression symptoms are:hopelessness, difficulties concentrating at work, a lack of motivation, appetite changes and weight changes",
-        "Mild depression is noticeable but it’s the most difficult to diagnose,therefore,it’s easy to dismiss the symptoms and avoid discussing them with a doctor.However,mild depression is the easiest to treat!We suggest some certain lifestyle changes: exercising daily,adhering to a sleep schedule, eating a balanced diet rich in fruits and vegetables, practicing yoga or meditation, doing activities that reduce stress, such as journaling, reading, or listening to music",
+        "Some common mild depression symptoms are: hopelessness, difficulties concentrating at work, a lack of motivation, appetite changes and weight changes",
+        "Mild depression is noticeable but it’s the most difficult to diagnose, therefore, it’s easy to dismiss the symptoms and avoid discussing them with a doctor. However, mild depression is the easiest to treat! We suggest some certain lifestyle changes: exercising daily, adhering to a sleep schedule, eating a balanced diet rich in fruits and vegetables, practicing yoga or meditation, doing activities that reduce stress, such as journaling, reading, or listening to music",
     ],
     2:[
         'Your Depression test result : Moderate Depression',
         "Moderate and mild depression share similar symptoms: problems with self-esteem, reduced productivity, feelings of worthlessness, increased sensitivities, excessive worrying",
-        "Moderate depression is easier to diagnose than mild cases because the symptoms significantly impact your daily life. The key to a diagnosis, though, is to make sure you talk to your doctor about the symptoms you’re experiencing.SSRIs, such as sertraline (Zoloft) or paroxetine (Paxil), may be prescribed. These medications can take up to six weeks to take full effect. Cognitive behavioral therapy (CBT) is also used in some cases of moderate depression.", 
+        "Moderate depression is easier to diagnose than mild cases because the symptoms significantly impact your daily life. The key to a diagnosis, though, is to make sure you talk to your doctor about the symptoms you’re experiencing. SSRIs, such as sertraline (Zoloft) or paroxetine (Paxil), may be prescribed. These medications can take up to six weeks to take full effect. Cognitive behavioral therapy (CBT) is also used in some cases of moderate depression.", 
     ],
     3:[
         'Your Depression test result : Moderately severe Depression',
-        "Moderately severe depression is very common and very treatable.Some of the symptoms are: low mood and irritability most days as well as a loss of interest or enjoyment in activities that were previously enjoyed",
-        "It is strongly recommended that you work with your doctor to develop a treatment plan that’s personalized to fit your needs.Talk to your doctor about whether medication for depression is right for you. They can help you develop a treatment plan based on your individual needs and preferences. ",
+        "Moderately severe depression is very common and very treatable. Some of the symptoms are: low mood and irritability most days as well as a loss of interest or enjoyment in activities that were previously enjoyed",
+        "It is strongly recommended that you work with your doctor to develop a treatment plan that’s personalized to fit your needs. Talk to your doctor about whether medication for depression is right for you. They can help you develop a treatment plan based on your individual needs and preferences. ",
     ],
     4:[
         'Your Depression test result : Severe Depression',
-        "Diagnosis is especially crucial in severe depression, and it may even be time-sensitive.Severe forms of depression may cause delusions,feelings of stupor, hallucinations, suicidal thoughts or behaviors",
-        "Severe depression requires medical treatment as soon as possible. Your doctor will likely recommend an SSRI and some form of talk therapy.If you’re experiencing suicidal thoughts or behaviors, you should seek immediate medical attention.Call your local emergency services right away",
+        "Diagnosis is especially crucial in severe depression, and it may even be time-sensitive. Severe forms of depression may cause delusions, feelings of stupor, hallucinations, suicidal thoughts or behaviors",
+        "Severe depression requires medical treatment as soon as possible. Your doctor will likely recommend an SSRI and some form of talk therapy. If you’re experiencing suicidal thoughts or behaviors, you should seek immediate medical attention. Call your local emergency services right away",
     ],
 }
 
