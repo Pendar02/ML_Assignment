@@ -74,7 +74,7 @@ results = {
     ],
     3:[
         'Your Depression test result : Moderately severe Depression',
-        "Moderately severe depression is very common and very treatable.Some of the symptoms are: low mood and irritability most days as well as a loss of interest or enjoyment in activities that were previously",
+        "Moderately severe depression is very common and very treatable.Some of the symptoms are: low mood and irritability most days as well as a loss of interest or enjoyment in activities that were previously enjoyed",
         "It is strongly recommended that you work with your doctor to develop a treatment plan that’s personalized to fit your needs.Talk to your doctor about whether medication for depression is right for you. They can help you develop a treatment plan based on your individual needs and preferences. ",
     ],
     4:[
