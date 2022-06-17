@@ -15,7 +15,7 @@ if 'num' not in st.session_state:
 if 'answers' not in st.session_state:
     st.session_state.answers = []
 
-# ---- page configuration ----
+# ---- Page Configuration ----
 st.set_page_config(page_title = "x", page_icon = ":sparkles:", layout = "wide")
 
 # ---- Load Lottie Files ----
@@ -31,6 +31,7 @@ lottiFiles = [
     load_lottieurl('https://assets8.lottiefiles.com/packages/lf20_ibbakwps.json'),
     load_lottieurl('https://assets6.lottiefiles.com/private_files/lf30_of3skn6w.json'),
     load_lottieurl('https://assets1.lottiefiles.com/packages/lf20_1ef7g2lw.json'),
+    load_lottieurl('https://assets10.lottiefiles.com/packages/lf20_fvybxiki.json'),
 ]
 
 # ---- Load Model ----
@@ -88,22 +89,24 @@ placeholder = st.empty()
 
 # ---- Landing page ----
 def landingPage():
+    st.subheader("Hi, we are QWERT! :wave:")
+    st.write("We are a group of students from Faculty of Computer Science, University Malaya\nPresenting Machine Learning Project for our course")
+    st.write("---")
+    st.title("Depression Test")
+
     # Defining columns
     col1, col2 = st.columns((2,1))
+    
     with col1:
-            st.write("---")
-            st.title("A cat")
-            st.text("")
-            st.write("This depression quiz is based on the Depression Screening Test developed by Ivan K. Goldberg, MD, the founder of Psycom who was also a renowned psychiatrist.")    
+        st.text("")
+        st.write("This depression quiz is based on the Depression Screening Test developed by Ivan K. Goldberg, MD, the founder of Psycom who was also a renowned psychiatrist.")    
+        #Take test Button
+        if st.button("Take the Test"):
+            st.session_state.page = 1 #Session state to refresh page
+            placeholder.empty()
 
     with col2:
-        st.image("https://static.streamlit.io/examples/dog.jpg")
-
-    # Next button to change
-    if st.button("Take the Test"):
-        st.session_state.page = 1 #Session state to refresh page
-        placeholder.empty()
-
+        st_lottie(lottiFiles[5], height=250, key="landing")
 
 # ---- Test page ----
 def testPage():
@@ -141,22 +144,22 @@ def testPage():
     with col1:
         st.header("Outcome")
         st.write("---")
-        st.write(outcome)
+        st.write("-" +outcome)
         st.text(" ")
         st_lottie(lottiFiles[int(result[0])], height=300, key="depression")
 
     with col2:
         st.header("Symptom")
         st.write("---")
-        st.write(symptom)
+        st.write("-" + symptom)
 
     with col3:
         st.header("Note")
         st.write("---")
-        st.write(note)
+        st.write("-" +note)
         if(int(result[0]==0)):
-            st.write("Check out this [link](https://www.nhs.uk/mental-health/self-help/tips-and-support/how-to-be-happier/)!")
-            st.write("Check out this [link](https://www.amazon.com/Happy-Mind-Life-Simple-Great-ebook/dp/B09KZNFNT1)!")
+            st.write("- Check out this [link](https://www.nhs.uk/mental-health/self-help/tips-and-support/how-to-be-happier/)!")
+            st.write("- Check out this [link](https://www.amazon.com/Happy-Mind-Life-Simple-Great-ebook/dp/B09KZNFNT1)!")
 
        
 
