@@ -90,7 +90,7 @@ placeholder = st.empty()
 # ---- Landing page ----
 def landingPage():
     st.subheader("Hi, we are QWERT! :wave:")
-    st.write("We are a group of students from Faculty of Computer Science, University Malaya\nPresenting Machine Learning Project for our course")
+    st.write("We are a group of students from Faculty of Computer Science, University Malaya. We are presenting Machine Learning Project for our course")
     st.write("---")
     st.title("Depression Test")
 
